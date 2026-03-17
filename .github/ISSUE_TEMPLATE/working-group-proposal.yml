@@ -17,20 +17,12 @@ body:
       value: |
         Thank you for your interest in forming a working group.
 
-        Please complete the form below to help the AAIF Technical Committee (TC) evaluate your request.
+        Please complete the form below to help the AAIF Technical Committee (TC) review your request.
 
   - type: input
     attributes:
       label: Proposed Working Group Name
       description: "The proposed name of the working group."
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: Working Group Summary
-      description: "Provide a one-line summary of the working group."
-      placeholder: "A short, clear summary (max one sentence)"
     validations:
       required: true
 
