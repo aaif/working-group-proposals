@@ -1,0 +1,110 @@
+name: Working Group Proposal
+description: Propose a new Working Group to the AAIF Technical Committee.
+title: "[Working Group Proposal]:"
+labels:
+  - new
+
+name: Working Group Proposal
+description: Propose a new Working Group to the AAIF Technical Committee.
+title: "[Working Group Proposal] <ADD Proposed Name> "
+labels: [New]
+assignees:
+  - christinaharter
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > Thank you for your interest in forming a working group.
+
+        Please complete the form below to help the AAIF Technical Committee (TC) evaluate your request.
+
+  - type: input
+    attributes:
+      label: Proposed Working Group Name
+      description: "The proposed name of the working group."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Working Group Summary
+      description: "Provide a one-line summary of the working group."
+      placeholder: "A short, clear summary (max one sentence)"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Working Group Description
+      description: "Describe what the project does, who it serves, and why it should be hosted by the AAIF Foundation."
+      placeholder: "What the project does, why it matters, and how it aligns with AAIF's mission."
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: GitHub Repository URL
+      description: "URL of the main code repository for the project."
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Website URL
+      description: "URL of the project website or documentation portal."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Governance Model
+      description: "Link to or description of the project's current governance model (e.g., LF Minimum Viable Governance)."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: CI/CD & Release Workflow
+      description: |
+        Describe how your project is built, tested, and released.
+        Include any CI systems and frequency of releases.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Production Adoption
+      description: |
+        Describe real-world usage.
+        Provide evidence of production deployments in at least two different organizations.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Maintainers & Contributors
+      description: "Provide names, GitHub handles, and affiliations for at least 2 core maintainers from different organizations and at least 10 contributors."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Roadmap
+      description: "Link to or provide a 12-month public roadmap for the project."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Security
+      description: "Has the project received a Silver badge or better from OpenSSF Best Practices? Please link the badge or status."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional Information
+      description: "Any other details the TC should know when reviewing this proposal."
+    validations:
+      required: false
