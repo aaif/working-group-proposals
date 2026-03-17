@@ -59,14 +59,14 @@ body:
     attributes:
       label: Proposed Working Group Chair(s)
       description: "Please provide the name(s), GitHub handle(s) and company affiliation for your proposed working group chair(s). Please note that Working Group Chairs must be from either a Platinum or Gold Member company."
-    validathions:
+    validations:
       required: true
       
   - type: textarea
     attributes:
       label: List of Supporters
       description: "Please provide the name(s), GitHub handle(s) and company affiliation for additional supporters of this working group. Please ensure they are from a different member company than the submitter."
-    validathions:
+    validations:
       required: false
 
   - type: textarea
