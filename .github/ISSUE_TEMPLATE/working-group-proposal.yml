@@ -37,19 +37,18 @@ body:
   - type: textarea
     attributes:
       label: Working Group Description
-      description: "Describe what the project does, who it serves, and why it should be hosted by the AAIF Foundation."
-      placeholder: "What the project does, why it matters, and how it aligns with AAIF's mission."
+      description: "Describe in detail the challenge(s) the working group will try to solve, its potential mission, and key scope areas that the working group will focus on."
     validations:
       required: true
 
-    - type: input
+  - type: input
     attributes:
       label: Name of AAIF Member Organization
       description: "Please provide the name of your company or organization. Please note that new Working Groups can only be proposed by AAIF Member companies."
     validations:
       required: true
       
-    - type: input
+  - type: input
     attributes:
       label: Submitter Information
       description: "Please provide your name, GitHub handle, and business email associated with an AAIF member company."
