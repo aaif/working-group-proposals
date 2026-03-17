@@ -48,7 +48,7 @@ body:
     validations:
       required: true
       
-  - type: input
+  - type: textarea
     attributes:
       label: Submitter Information
       description: "Please provide your name, GitHub handle, and business email associated with an AAIF member company."
@@ -72,6 +72,6 @@ body:
   - type: textarea
     attributes:
       label: Additional Information
-      description: "Any other details the TC should know when reviewing this proposal."
+      description: "Any other details the Technical Committee should know when reviewing this proposal."
     validations:
       required: false
