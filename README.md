@@ -2,9 +2,9 @@
 
 ![AAIF Logo](https://raw.githubusercontent.com/aaif/.github/main/profile/assets/AAIF_Primary_Logo_Black_on_White.jpg)
 
-This repository is designed to support submissions to form a new **working group** under the Agentic AI Foundation (AAIF). It outlines the intake process and requirements for those seeking to form a new working group.
+This repository is designed to support submissions to form a **new working group** under the Agentic AI Foundation (AAIF). It outlines the intake process and requirements for those seeking to form a new working group.
 
-Please review the [Working Group Submission Guidelines](coming soon) before submitting a proposal.
+Please review the [**Working Group Submission Guidelines**](https://github.com/aaif/working-group-proposals/blob/main/submission-guidelines.md) before submitting a proposal.
 
 ---
 
@@ -22,7 +22,6 @@ Your proposal will appear on the [Working Group Proposals Board](https://github.
 
 Once submitted:
 - Your proposal is placed in the backlog for triage.
-- You’ll prepare a review presentation, with help from AAIF staff.
 - Your proposal will be scheduled for a future TC meeting, where it will be reviewed.
 
 Submitters should monitor their submission and respond promptly to comments or requests from the TC or community.
