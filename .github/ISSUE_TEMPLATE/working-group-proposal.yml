@@ -15,7 +15,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        > Thank you for your interest in forming a working group.
+        Thank you for your interest in forming a working group.
 
         Please complete the form below to help the AAIF Technical Committee (TC) evaluate your request.
 
@@ -42,65 +42,33 @@ body:
     validations:
       required: true
 
-  - type: input
+    - type: input
     attributes:
-      label: GitHub Repository URL
-      description: "URL of the main code repository for the project."
+      label: Name of AAIF Member Organization
+      description: "Please provide the name of your company or organization. Please note that new Working Groups can only be proposed by AAIF Member companies."
     validations:
       required: true
-
-  - type: input
+      
+    - type: input
     attributes:
-      label: Website URL
-      description: "URL of the project website or documentation portal."
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: Governance Model
-      description: "Link to or description of the project's current governance model (e.g., LF Minimum Viable Governance)."
+      label: Submitter Information
+      description: "Please provide your name, GitHub handle, and business email associated with an AAIF member company."
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: CI/CD & Release Workflow
-      description: |
-        Describe how your project is built, tested, and released.
-        Include any CI systems and frequency of releases.
-    validations:
+      label: Proposed Working Group Chair(s)
+      description: "Please provide the name(s), GitHub handle(s) and company affiliation for your proposed working group chair(s). Please note that Working Group Chairs must be from either a Platinum or Gold Member company."
+    validathions:
       required: true
-
+      
   - type: textarea
     attributes:
-      label: Production Adoption
-      description: |
-        Describe real-world usage.
-        Provide evidence of production deployments in at least two different organizations.
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: Maintainers & Contributors
-      description: "Provide names, GitHub handles, and affiliations for at least 2 core maintainers from different organizations and at least 10 contributors."
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: Roadmap
-      description: "Link to or provide a 12-month public roadmap for the project."
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: Security
-      description: "Has the project received a Silver badge or better from OpenSSF Best Practices? Please link the badge or status."
-    validations:
-      required: true
+      label: List of Supporters
+      description: "Please provide the name(s), GitHub handle(s) and company affiliation for additional supporters of this working group. Please ensure they are from a different member company than the submitter."
+    validathions:
+      required: false
 
   - type: textarea
     attributes:
