@@ -33,7 +33,7 @@ Submitters should monitor their submission and respond promptly to comments or r
 Working Group proposals are reviewed and voted on by the **AAIF Technical Committee (TC)**.
 
 - Proposals are reviewed during scheduled TC meetings.
-- To be accepted, a project must receive **an absolute majority vote (\>50%)** of all members of the Technical Committee, and is subject to final approval by the Governing Board.
+- To be accepted, a project must receive **a simple majority** of all members of the Technical Committee, and is subject to final approval by the Governing Board.
 
 ---
 
