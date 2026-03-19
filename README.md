@@ -6,6 +6,8 @@ This repository is designed to support submissions to form a **new working group
 
 Please review the [**Working Group Submission Guidelines**](https://github.com/aaif/working-group-proposals/blob/main/submission-guidelines.md) before submitting a proposal.
 
+Please note that AAIF is currently accepting proposals; however, **reviews will not begin until June 1, 2026**. In the meantime, we encourage AAIF members to [sign up for an existing working group](https://forms.gle/XDEuquBbDCBbh1E47).
+
 ---
 
 ## How to Apply
@@ -33,7 +35,7 @@ Submitters should monitor their submission and respond promptly to comments or r
 Working Group proposals are reviewed and voted on by the **AAIF Technical Committee (TC)**.
 
 - Proposals are reviewed during scheduled TC meetings.
-- To be accepted, a project must receive **an absolute majority vote (\>50%)** of all members of the Technical Committee, and is subject to final approval by the Governing Board.
+- To be accepted, a project must receive **a simple majority** of all members of the Technical Committee, and is subject to final approval by the Governing Board.
 
 ---
 
