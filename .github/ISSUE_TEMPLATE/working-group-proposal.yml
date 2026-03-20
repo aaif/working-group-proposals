@@ -289,7 +289,7 @@ body:
       label: Any existing work, prior art, competing or related initiatives?
       placeholder: Reference prior work, related standards, research, or adjacent efforts. Please attach files to the issue after submission, or include links below.
      validations:
-      required: false     
+      required: false    
 
   - type: textarea
     id: references_links
