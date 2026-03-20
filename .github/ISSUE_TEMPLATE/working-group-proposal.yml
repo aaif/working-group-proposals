@@ -50,7 +50,7 @@ body:
     id: role_title
     attributes:
       label: Role / Title
-      placeholder: ex: Director of AI Standards
+      placeholder: ex. Director of AI Standards
     validations:
       required: true
 
