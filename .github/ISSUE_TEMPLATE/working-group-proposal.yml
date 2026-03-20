@@ -17,7 +17,7 @@ body:
       value: |
         Thank you for your interest in forming a working group. Please complete the form below and the the AAIF Technical Committee (TC) will review your request.
 
-        Please note that the project is currently accepting proposals; however, reviews will not begin until June 1, 2026. 
+        Please note that the TC is currently accepting proposals; however, reviews will not begin until June 1, 2026. 
 
   - type: markdown
     attributes:
@@ -43,6 +43,7 @@ body:
     id: organization
     attributes:
       label: Organization / Affiliation
+      placeholder: Must be from an AAIF Member Organization
     validations:
       required: true
 
