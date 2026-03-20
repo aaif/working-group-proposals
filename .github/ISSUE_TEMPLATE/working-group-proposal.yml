@@ -43,7 +43,6 @@ body:
     id: organization
     attributes:
       label: Organization / Affiliation
-      placeholder:
     validations:
       required: true
 
