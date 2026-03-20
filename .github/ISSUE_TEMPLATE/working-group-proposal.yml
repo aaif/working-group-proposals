@@ -82,7 +82,7 @@ body:
     id: working_group_name
     attributes:
       label: Proposed working group name
-      placeholder: ex: Agentic AI Interoperability Working Group
+      placeholder: ex. Agentic AI Interoperability Working Group
     validations:
       required: true
 
