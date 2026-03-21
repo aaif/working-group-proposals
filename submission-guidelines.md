@@ -67,7 +67,7 @@ Provide a high-level estimate of any resource requirements, including staff supp
 
 ## Evaluation Criteria
 
-Submitted proposals will be reviewed by the Foundation's Working Group Committee using the following criteria:
+Submitted proposals will be reviewed by the Foundation's Technical Committee using the following criteria:
 
 | Criterion | Description |
 |---|---|
