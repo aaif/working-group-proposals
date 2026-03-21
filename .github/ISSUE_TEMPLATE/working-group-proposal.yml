@@ -17,53 +17,303 @@ body:
       value: |
         Thank you for your interest in forming a working group. Please complete the form below and the the AAIF Technical Committee (TC) will review your request.
 
-        Please note that the project is currently accepting submissions; however, reviews will not begin until June 1, 2026. 
+        Please note that the TC is currently accepting proposals; however, reviews will not begin until June 1, 2026. 
+
+  - type: markdown
+    attributes:
+      value: "## Submitter Information"
 
   - type: input
+    id: full_name
     attributes:
-      label: Proposed Working Group Name
-      description: "The proposed name of the working group."
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: Working Group Description
-      description: "Describe in detail the challenge(s) the working group will try to solve, its potential mission, and key scope areas that the working group will focus on."
+      label: Full name
+      placeholder: Jane Doe
     validations:
       required: true
 
   - type: input
+    id: email_address
     attributes:
-      label: Name of AAIF Member Organization
-      description: "Please provide the name of your company or organization. Please note that new Working Groups can only be proposed by AAIF Member companies."
+      label: Email address
+      placeholder: jane.doe@example.org
     validations:
       required: true
-      
-  - type: textarea
+
+  - type: input
+    id: organization
     attributes:
-      label: Submitter Information
-      description: "Please provide your name, GitHub handle, and business email associated with an AAIF member company."
+      label: Organization / Affiliation
+      placeholder: Must be from an AAIF Member Organization
+    validations:
+      required: true
+
+  - type: input
+    id: role_title
+    attributes:
+      label: Role / Title
+      placeholder: ex. Director of AI Standards
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platinum_or_gold
+    attributes:
+      label: Is your company a Platinum or Gold AAIF Member?
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: willing_to_lead
+    attributes:
+      label: Are you willing to lead or co-lead this working group?
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "## Working Group Identity"
+
+  - type: input
+    id: working_group_name
+    attributes:
+      label: Proposed working group name
+      placeholder: ex. Agentic AI Interoperability Working Group
+    validations:
+      required: true
+
+  - type: input
+    id: elevator_pitch
+    attributes:
+      label: One-sentence summary (elevator pitch, ~25 words max)
+      placeholder: Define interoperable standards and best practices for agentic AI systems across tooling, governance, and deployment.
     validations:
       required: true
 
   - type: textarea
+    id: focus_scope
     attributes:
-      label: Proposed Working Group Chair(s)
-      description: "Please provide the name(s), GitHub handle(s) and company affiliation for your proposed working group chair(s). Please note that Working Group Chairs must be from either a Platinum or Gold Member company."
+      label: Detailed description of the working group's focus and scope
+      placeholder: Describe the working group's focus, boundaries, and what it will and will not cover.
     validations:
       required: true
-      
-  - type: textarea
+
+  - type: markdown
     attributes:
-      label: List of Supporters
-      description: "Please provide the name(s), GitHub handle(s) and company affiliation for additional supporters of this working group. Please ensure they are from a different member company than the submitter."
+      value: "## Purpose & Justification"
+
+  - type: textarea
+    id: problem_statement
+    attributes:
+      label: Problem statement — what challenge or gap does this address?
+      placeholder: What problem exists today, and why is it important to solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: relevance_to_agentic_ai
+    attributes:
+      label: Why is this relevant to Agentic AI specifically?
+      placeholder: Explain why this issue is uniquely important in the context of agentic AI.
+    validations:
+      required: true
+
+  - type: textarea
+    id: goals_outcomes
+    attributes:
+      label: Proposed goals and intended outcomes
+      placeholder: List the specific goals, outputs, or measurable outcomes expected from this working group.
+    validations:
+      required: true
+
+  - type: textarea
+    id: mission_alignment
+    attributes:
+      label: How does this align with the Agentic AI Foundation's mission?
+      placeholder: Explain how this proposal supports the Foundation's strategic mission and priorities.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "## Scope & Structure"
+
+  - type: textarea
+    id: key_topics
+    attributes:
+      label: Key topics or workstreams to be covered
+      placeholder: |
+        Example:
+        - Technical standards
+        - Governance frameworks
+        - Evaluation benchmarks
+        - Tooling and implementation guidance
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_deliverables
+    attributes:
+      label: Proposed deliverables (e.g., whitepaper, standards, guidelines, tooling)
+      placeholder: Describe the tangible outputs expected from the working group.
+    validations:
+      required: true
+
+  - type: input
+    id: timeline_duration
+    attributes:
+      label: Target timeline / expected duration
+      placeholder: 6 months, 12 months, Q3 2026 - Q2 2027
+    validations:
+      required: true
+
+  - type: input
+    id: meeting_cadence
+    attributes:
+      label: Suggested meeting cadence
+      placeholder: Biweekly, monthly, etc.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "## Membership & Stakeholders"
+
+  - type: textarea
+    id: target_participants
+    attributes:
+      label: Target participants / expertise needed
+      placeholder: Describe the types of participants, domains, and expertise needed for this working group.
+    validations:
+      required: true
+
+  - type: textarea
+    id: committed_participants
+    attributes:
+      label: Are there any organizations or individuals already committed?
+      placeholder: List any committed participants, organizations, or interested stakeholders.
+    validations:
+      required: false
+
+  - type: input
+    id: ideal_group_size
+    attributes:
+      label: Ideal working group size
+      placeholder: 10-15 members
+    validations:
+      required: true
+
+  - type: textarea
+    id: cross_group_dependencies
+    attributes:
+      label: Any relevant cross-working-group dependencies
+      placeholder: Note dependencies, overlaps, or coordination needs with other groups.
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: "## Impact & Prioritization"
+
+  - type: textarea
+    id: primary_beneficiaries
+    attributes:
+      label: Who are the primary beneficiaries of this work?
+      placeholder: Identify the audiences, communities, or sectors that would benefit.
+    validations:
+      required: true
+
+  - type: textarea
+    id: anticipated_impact
+    attributes:
+      label: Anticipated impact (technical / policy / industry / societal)
+      placeholder: Describe expected impact across relevant dimensions.
+    validations:
+      required: true
+
+  - type: textarea
+    id: urgency
+    attributes:
+      label: Urgency — why now?
+      placeholder: Explain why this working group should be formed at this time.
+    validations:
+      required: true
+
+  - type: textarea
+    id: risks_challenges
+    attributes:
+      label: Are there risks or challenges to this working group succeeding?
+      placeholder: List potential risks, blockers, or constraints.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "## Resources"
+
+  - type: textarea
+    id: resource_needs
+    attributes:
+      label: Estimated resource needs (budget, tooling, staff support)
+      placeholder: Describe expected budget, tools, staffing, or operational support needs.
     validations:
       required: false
 
   - type: textarea
+    id: existing_work
     attributes:
-      label: Additional Information
-      description: "Any other details the Technical Committee should know when reviewing this proposal."
+      label: Any existing work, prior art, competing or related initiatives?
+      placeholder: Reference prior work, related standards, research, or adjacent efforts.
     validations:
       required: false
+
+  - type: textarea
+    id: co_chairs_smes
+    attributes:
+      label: Possible co-chair or SMEs willing to lead the working group
+      placeholder: List potential co-chairs, subject matter experts, or contributors.
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: "## Supporting Materials"
+
+  - type: textarea
+    id: supporting_documents
+    attributes:
+      label: "Any existing work, prior art, competing or related initiatives?"
+      placeholder: "Reference prior work, related standards, research, or adjacent efforts. Please attach files to the issue after submission, or include links below."
+    validations:
+      required: false
+
+  - type: textarea
+    id: references_links
+    attributes:
+      label: "Links to relevant references or resources"
+      placeholder: "Add URLs to prior research, proposals, documents, repos, or other supporting materials."
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_comments
+    attributes:
+      label: Additional comments
+      placeholder: Add any other context or notes here.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: Acknowledgements
+      options:
+        - label: I understand that any supporting files must be attached after the issue is submitted, or linked in the form above.
+          required: true
+        - label: I confirm that the information provided here is accurate to the best of my knowledge.
+          required: true
