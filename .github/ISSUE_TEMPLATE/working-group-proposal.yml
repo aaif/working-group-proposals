@@ -1,11 +1,5 @@
 name: Working Group Proposal
 description: Propose a new Working Group to the AAIF Technical Committee.
-title: "[Working Group Proposal]:"
-labels:
-  - new
-
-name: Working Group Proposal
-description: Propose a new Working Group to the AAIF Technical Committee.
 title: "[Working Group Proposal] <ADD Proposed Name> "
 labels: [New]
 assignees:
@@ -15,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for your interest in forming a working group. Please complete the form below and the the AAIF Technical Committee (TC) will review your request.
+        Thank you for your interest in forming a working group. Please complete the form below and the AAIF Technical Committee (TC) will review your request.
 
         Please note that the TC is currently accepting proposals; however, reviews will not begin until June 1, 2026. 
 
