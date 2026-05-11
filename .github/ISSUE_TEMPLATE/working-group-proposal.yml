@@ -281,8 +281,8 @@ body:
   - type: textarea
     id: supporting_documents
     attributes:
-      label: "Any existing work, prior art, competing or related initiatives?"
-      placeholder: "Reference prior work, related standards, research, or adjacent efforts. Please attach files to the issue after submission, or include links below."
+      label: "Supporting documents or attachments"
+      placeholder: "Attach files to the issue after submission or include links below."
     validations:
       required: false
 
