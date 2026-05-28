@@ -115,7 +115,7 @@ All Working Group participants, including proposers, are expected to adhere to t
 For questions about the submission process, eligibility, or how to strengthen your proposal, please contact the AAIF Support team at:
 
 📧 **support@aaif.io**
-🌐 **[www.aaif.io](#)**
+🌐 **[www.aaif.io](https://www.aaif.io)**
 
 ---
 
