@@ -84,13 +84,15 @@ Submitted proposals will be reviewed by the Foundation's Technical Committee usi
 ## Review Process
 
 1. **Submission** — Complete and submit the Working Group Idea Submission Form through the Project Proposal Github repo.
-2. **Initial Screening** — Foundation staff review submissions for completeness, generally within **10-15 business days**. *(note: the initial review process will not commence until June 1, 2026)*
+2. **Initial Screening** — Foundation staff review submissions for completeness, generally within **10-15 business days**.
 3. **Committee Review** — Complete proposals are evaluated by the Technical Committee at its next scheduled meeting (held monthly).
 4. **Feedback & Revision** — Proposers may be invited to clarify, revise, or present their proposal to the Committee.
 5. **Decision** — Proposals are approved, returned for revision, or declined, with written rationale provided in all cases through the Github issue.
 6. **Charter Development** — Approved groups proceed to develop a formal Working Group Charter before launch.
 
-> The full review cycle, from submission to decision, typically takes **4–8 weeks**.
+The full review cycle, from submission to decision, typically takes **4–8 weeks**.
+
+In addition, please review the [Working Group Lifecycle Policy](https://github.com/aaif/technical-committee/blob/main/working-groups/lifecycle-policy.md).
 
 ---
 
