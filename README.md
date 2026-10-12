@@ -4,7 +4,7 @@
 
 This repository is designed to support submissions to form a **new working group** under the Agentic AI Foundation (AAIF). It outlines the intake process and requirements for those seeking to form a new working group.
 
-Please review the [**Working Group Submission Guidelines**](https://github.com/aaif/working-group-proposals/blob/main/submission-guidelines.md) before submitting a proposal.
+Please review the [**Working Group Submission Guidelines**](https://github.com/aaif/working-group-proposals/blob/main/submission-guidelines.md) before submitting a proposal. Working groups will be subject to the [Working Group Lifecycle Policy](https://github.com/aaif/technical-committee/blob/main/working-groups/lifecycle-policy.md) and will need to commit to the [Working Group Reporting Practices](https://github.com/aaif/technical-committee/blob/main/working-groups/reporting.md). It is recommended that you read these thoroughly before proposing a new working group.
 
 ---
 
