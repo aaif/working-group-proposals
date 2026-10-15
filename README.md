@@ -2,9 +2,15 @@
 
 ![AAIF Logo](https://raw.githubusercontent.com/aaif/.github/main/profile/assets/AAIF_Primary_Logo_Black_on_White.jpg)
 
-This repository is designed to support submissions to form a **new working group** under the Agentic AI Foundation (AAIF). It outlines the intake process and requirements for those seeking to form a new working group.
+This repository is the application and tracking point for proposals to form a new working group (WG), or revive a Concluded WG, under the Agentic AI Foundation (AAIF).
 
-Please review the [Working Group Submission Guidelines](https://github.com/aaif/working-group-proposals/blob/main/submission-guidelines.md) before submitting a proposal. Working groups will be subject to the [Working Group Lifecycle Policy](https://github.com/aaif/technical-committee/blob/main/working-groups/lifecycle-policy.md) and will need to commit to the [Working Group Reporting Practices](https://github.com/aaif/technical-committee/blob/main/working-groups/reporting.md). It is recommended that you read these thoroughly before proposing a new working group.
+Before applying, review:
+
+- [Working Group Lifecycle Policy](https://github.com/aaif/technical-committee/blob/main/working-groups/lifecycle-policy.md), the authoritative policy for eligibility, proposals, approvals, charters, leadership, and renewal.
+- [Working Group Monthly Reporting](https://github.com/aaif/technical-committee/blob/main/working-groups/reporting.md), the authoritative reporting procedure.
+- [Submission Guidelines](submission-guidelines.md), practical guidance for preparing your proposal.
+
+Proposals are submitted by representatives of AAIF member organizations. WG participation is open to everyone; see the lifecycle policy for proposal and chair eligibility. Non-members with an idea can ask a member organization to sponsor a proposal.
 
 ---
 
@@ -20,20 +26,11 @@ Your proposal will appear on the [Working Group Proposals Board](https://github.
 
 ## What's Next?
 
-Once submitted:
-- Your proposal is placed in the backlog for triage.
-- Your proposal will be scheduled for a future TC meeting, where it will be reviewed.
+AAIF staff check your proposal for completeness, and the Technical Committee (TC) reviews it asynchronously on the GitHub issue. See the [Working Group Lifecycle Policy](https://github.com/aaif/technical-committee/blob/main/working-groups/lifecycle-policy.md) for review timing and decision rules.
 
 Submitters should monitor their submission and respond promptly to comments or requests from the TC or community.
 
----
-
-## Review and Voting
-
-Working Group proposals are reviewed and voted on by the **AAIF Technical Committee (TC)**.
-
-- Proposals are reviewed during scheduled TC meetings.
-- To be accepted, a project must receive **a simple majority** of all members of the Technical Committee, and is subject to final approval by the Governing Board.
+New WGs require TC and Governing Board approval. Once the required approvals are in place, the WG starts in **Sandbox**, begins meeting and reporting, and develops its charter. It becomes **Active** only after the TC approves the charter. Approval of a proposal is not approval of an Active charter.
 
 ---
 
@@ -42,7 +39,7 @@ Working Group proposals are reviewed and voted on by the **AAIF Technical Commit
 | Label                 | Description                                                                                  |
 |----------------------|----------------------------------------------------------------------------------------------|
 | `New`                | The proposal is new and placed in the backlog.                                            |
-| `Approved`           | The proposal has been accepted.             |
+| `Approved`           | The proposal has received the required approvals; the WG starts in Sandbox.              |
 | `Declined`           | The proposal has been declined. Reasons are provided in issue comments.                   |
 | `Waiting on Comment` | Additional information is required; reviewers will post a comment with details.              |
 | `Too Early`          | The working group proposal is not yet ready. Guidance will be given for reapplication.                      |
@@ -51,4 +48,4 @@ Working Group proposals are reviewed and voted on by the **AAIF Technical Commit
 
 ## Questions?
 
-For questions or support, please reach out to AAIF staff via the [AAIF Discord Server](https://discord.gg/9zTwngHAMy) or at **support@aaif.io**. 
+For questions or support, please reach out to AAIF staff via the [AAIF Discord Server](https://discord.gg/9zTwngHAMy) or at **support@aaif.io**.

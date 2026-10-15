@@ -1,5 +1,5 @@
 name: Working Group Proposal
-description: Propose a new Working Group to the AAIF Technical Committee.
+description: Propose a new Working Group or revive a Concluded Working Group under the AAIF.
 title: "[Working Group Proposal] <ADD Proposed Name> "
 labels: [New]
 assignees:
@@ -9,9 +9,17 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for your interest in forming a working group. Please complete the form below and the AAIF Technical Committee (TC) will review your request.
+        Thank you for your interest in forming or reviving an AAIF Working Group (WG). Please complete the form below for review by the Technical Committee (TC).
 
-        Please note that the TC is currently accepting proposals; however, reviews will not begin until June 1, 2026. 
+        Read the [Working Group Lifecycle Policy](https://github.com/aaif/technical-committee/blob/main/working-groups/lifecycle-policy.md) for eligibility, proposal requirements, approvals, and charter expectations, and the [Working Group Monthly Reporting](https://github.com/aaif/technical-committee/blob/main/working-groups/reporting.md) procedure for ongoing reporting requirements.
+
+        The [Submission Guidelines](https://github.com/aaif/working-group-proposals/blob/main/submission-guidelines.md) provide practical advice for preparing your proposal. Consider whether a workstream within an existing WG would be a better fit for focused or time-boxed work.
+
+        Proposals must be submitted by a representative of an AAIF member organization. Anyone may participate in a WG, but chairs must come from Platinum, Gold, or Silver member organizations.
+
+        Review takes place asynchronously on this issue. Once the required TC and Governing Board approvals are in place, the WG starts in Sandbox and develops its charter. It becomes Active only after TC approval of the charter.
+
+        For a revival, link to the Concluded WG's repository and previous charter in the supporting materials, and explain what has changed.
 
   - type: markdown
     attributes:
@@ -50,12 +58,15 @@ body:
       required: true
 
   - type: dropdown
-    id: platinum_or_gold
+    id: membership_tier
     attributes:
-      label: Is your company a Platinum or Gold AAIF Member?
+      label: Your organization's AAIF membership tier
+      description: "Proposals may be submitted by people from any of these membership tiers. Non-members can ask a member organization to sponsor a proposal, with a member representative submitting it."
       options:
-        - "Yes"
-        - "No"
+        - Platinum
+        - Gold
+        - Silver
+        - Associate
     validations:
       required: true
 
@@ -63,6 +74,7 @@ body:
     id: willing_to_lead
     attributes:
       label: Are you willing to lead or co-lead this working group?
+      description: "The proposer does not have to serve as a chair. Chair eligibility is defined in the Working Group Lifecycle Policy."
       options:
         - "Yes"
         - "No"
@@ -105,6 +117,7 @@ body:
     id: problem_statement
     attributes:
       label: Problem statement — what challenge or gap does this address?
+      description: "Explain the gap in the agentic AI ecosystem and why no existing AAIF WG or external body already covers it."
       placeholder: What problem exists today, and why is it important to solve?
     validations:
       required: true
@@ -154,15 +167,17 @@ body:
     id: proposed_deliverables
     attributes:
       label: Proposed deliverables (e.g., whitepaper, standards, guidelines, tooling)
-      placeholder: Describe the tangible outputs expected from the working group.
+      description: "Describe what the WG expects to deliver in its first year, including the intended users and what completion would look like."
+      placeholder: List the first-year outputs and proposed milestones.
     validations:
       required: true
 
   - type: input
     id: timeline_duration
     attributes:
-      label: Target timeline / expected duration
-      placeholder: 6 months, 12 months, Q3 2026 - Q2 2027
+      label: First-year delivery timeline
+      description: "Outline delivery milestones for the first 12 months, not a fixed end date for the WG. Active WG charters are renewed annually under the lifecycle policy."
+      placeholder: "First 6 months: initial draft; by month 12: publish the first deliverable."
     validations:
       required: true
 
@@ -170,6 +185,7 @@ body:
     id: meeting_cadence
     attributes:
       label: Suggested meeting cadence
+      description: "Active WGs meet at least monthly, in the open, and publish meeting notes."
       placeholder: Biweekly, monthly, etc.
     validations:
       required: true
@@ -179,9 +195,21 @@ body:
       value: "## Membership & Stakeholders"
 
   - type: textarea
+    id: co_chairs_smes
+    attributes:
+      label: Proposed chair and co-chair
+      description: "Name both proposed chairs and provide each person's organization and AAIF membership tier. They must come from two different Platinum, Gold, or Silver member organizations. The TC confirms chair appointments under the lifecycle policy."
+      placeholder: |
+        Chair: name, organization, membership tier
+        Co-chair: name, organization, membership tier
+    validations:
+      required: true
+
+  - type: textarea
     id: target_participants
     attributes:
       label: Target participants / expertise needed
+      description: "WG participation is open to everyone, including people from non-member organizations."
       placeholder: Describe the types of participants, domains, and expertise needed for this working group.
     validations:
       required: true
@@ -189,10 +217,11 @@ body:
   - type: textarea
     id: committed_participants
     attributes:
-      label: Are there any organizations or individuals already committed?
-      placeholder: List any committed participants, organizations, or interested stakeholders.
+      label: Committed participants from at least three organizations
+      description: "Name the people who commit to taking part, their organizations, and their intended contributions. Include people from at least three organizations; participants do not have to come from AAIF member organizations."
+      placeholder: List each committed participant's name, organization, and intended contribution.
     validations:
-      required: false
+      required: true
 
   - type: input
     id: ideal_group_size
@@ -205,10 +234,11 @@ body:
   - type: textarea
     id: cross_group_dependencies
     attributes:
-      label: Any relevant cross-working-group dependencies
-      placeholder: Note dependencies, overlaps, or coordination needs with other groups.
+      label: Overlap and coordination with AAIF WGs and external bodies
+      description: "Identify adjacent AAIF WGs and external bodies or initiatives, and explain how the WG will coordinate with them rather than duplicate their work. If no overlap is identified, explain what you checked and why the scope is distinct."
+      placeholder: "Group or body: related work, overlap, and proposed coordination."
     validations:
-      required: false
+      required: true
 
   - type: markdown
     attributes:
@@ -261,16 +291,9 @@ body:
   - type: textarea
     id: existing_work
     attributes:
-      label: Any existing work, prior art, competing or related initiatives?
+      label: Existing work and supporting references (if any)
+      description: "Link to work the WG would build on. Include overlap and coordination arrangements in the required field above."
       placeholder: Reference prior work, related standards, research, or adjacent efforts.
-    validations:
-      required: false
-
-  - type: textarea
-    id: co_chairs_smes
-    attributes:
-      label: Possible co-chair or SMEs willing to lead the working group
-      placeholder: List potential co-chairs, subject matter experts, or contributors.
     validations:
       required: false
 
@@ -307,6 +330,8 @@ body:
     attributes:
       label: Acknowledgements
       options:
+        - label: I agree to follow the [AAIF Code of Conduct](https://github.com/aaif/foundation/blob/main/CODE_OF_CONDUCT.md).
+          required: true
         - label: I understand that any supporting files must be attached after the issue is submitted, or linked in the form above.
           required: true
         - label: I confirm that the information provided here is accurate to the best of my knowledge.

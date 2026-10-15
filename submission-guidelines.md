@@ -1,98 +1,82 @@
-# Working Group Idea Submission Guidelines
+# Working Group Proposal Submission Guidelines
 **Agentic AI Foundation**
-*Last Updated: March 2026*
+*Last Updated: October 15, 2026*
 
 ---
 
 ## Overview
 
-The Agentic AI Foundation welcomes proposals for new Working Groups from its members. Working Groups are the primary mechanism through which the Foundation advances research, develops standards, and produces actionable guidance on topics critical to the responsible development and deployment of agentic AI systems.
+Use this guide to prepare a clear, complete proposal for a new AAIF Working Group (WG), or to revive a Concluded WG. It provides practical advice for completing the [Working Group Proposal Application](https://github.com/aaif/working-group-proposals/issues/new?template=working-group-proposal.yml).
 
-These guidelines are intended to help prospective proposers understand the submission process, evaluation criteria, and expectations before submitting a Working Group idea.
+The [Working Group Lifecycle Policy](https://github.com/aaif/technical-committee/blob/main/working-groups/lifecycle-policy.md) is authoritative for eligibility, proposal requirements, approvals, charters, leadership, and renewal. The [Working Group Monthly Reporting](https://github.com/aaif/technical-committee/blob/main/working-groups/reporting.md) document defines the reporting procedure. This guide explains how to prepare a submission; it does not replace those documents.
 
 ---
 
 ## What Is a Working Group?
 
-A Working Group is a structured, time-bound collaboration of subject matter experts convened to address a specific challenge, produce defined deliverables, or advance a particular area of work relevant to the Foundation's mission. Working Groups may focus on technical, policy, governance, safety, or cross-cutting themes within the agentic AI landscape.
+A WG brings people together around a long-lived problem domain relevant to AAIF's mission. Its mission may continue for years, while its charter sets objectives for a renewable 12-month period.
+
+First consider whether your idea fits within an existing WG. A focused or time-boxed effort, such as producing a particular report, benchmark, or implementation guide, should normally be a workstream within a WG rather than a new WG. Explain why your proposal needs a separate, enduring group.
 
 ---
 
 ## Who Can Submit
 
-Submissions are open to:
+People from AAIF member organizations in good standing may submit proposals, including Platinum, Gold, Silver, and Associate members. Non-members with an idea can ask a member organization to sponsor the proposal, with a member representative submitting it.
 
-- **Foundation Members** — member organizations in good standing from any level membership.
-
-> **Note:** Submissions from outside the Foundation membership will not be reviewed.
+Anyone may participate in a WG. Chair eligibility is different from proposal eligibility: proposed chairs must come from Platinum, Gold, or Silver member organizations, as set out in the lifecycle policy. A proposer does not have to serve as a chair.
 
 ---
 
-## Submission Requirements
+## Preparing Your Proposal
 
-To be considered, a proposal must include the following:
+Use the proposal requirements in the lifecycle policy as your checklist. The following guidance will help you provide the evidence requested by the application form.
 
 ### 1. Submitter Information
-Provide your full name, organizational affiliation, role, and contact email. If you are proposing a group you are willing to help lead, indicate your availability and capacity as well as your organization's membership tier.
+Provide your full name, organization, role, contact email, and your organization's AAIF membership tier. Indicate whether you are willing to help lead, without assuming that the proposer must be one of the chairs.
 
 ### 2. Working Group Identity
 Provide a clear, concise name and a one-sentence summary of the group's focus. Avoid jargon where possible — the summary should be understandable to a generalist reviewer.
+
+For a revival, link to the Concluded WG's repository and previous charter in the supporting materials, and explain what has changed.
 
 ### 3. Problem Statement & Purpose
 Clearly articulate:
 - The challenge, gap, or opportunity being addressed
 - Why this is relevant to agentic AI specifically
 - How the proposed work aligns with the Foundation's mission and current strategic priorities
+- Why no existing AAIF WG or external body already covers the work
 
 ### 4. Proposed Scope & Deliverables
-Define the intended scope of work, key topics to be addressed, and expected outputs. Deliverables may include but are not limited to:
+Explain what the WG will and will not cover, and what it expects to deliver in its first year. Make outputs concrete: describe the intended audience, how they would use the result, and what completion would look like. Examples include:
 - Technical reports or whitepapers
 - Frameworks, standards, or best practices
 - Datasets, benchmarks, or tooling
 - Policy recommendations or guidance documents
 
-### 5. Timeline & Structure
-Provide a proposed timeline, expected meeting cadence, and suggested working group duration. Most Working Groups operate on a 12–24 month charter cycle.
+### 5. First-Year Plan
+Outline milestones for the first 12 months and a proposed meeting cadence. Distinguish delivery milestones from the lifetime of the WG: the mission may be ongoing, while charter objectives are renewed annually under the lifecycle policy. A full charter is developed with participants during Sandbox, not required before the WG can start meeting.
 
-### 6. Membership & Expertise
-Identify the types of expertise and stakeholder perspectives needed. If individuals or organizations have already expressed interest in participating, please include them.
+### 6. Leadership & Committed Participants
+Name a proposed chair and co-chair from two different eligible member organizations, giving the organization and membership tier for each.
 
-### 7. Impact & Urgency
-Explain the anticipated impact of the Working Group's outputs and articulate why this work is timely. Proposals that address emerging or urgent challenges are given priority consideration.
+List named people from at least three organizations who commit to taking part, rather than only listing organizations you hope to recruit. Describe their intended contributions and the additional expertise you would like to attract. Participants do not have to come from AAIF member organizations.
 
-### 8. Resource Considerations
-Provide a high-level estimate of any resource requirements, including staff support, tooling, or budget. Note any existing work or prior art that the group would build upon.
+### 7. Overlap & Coordination
+Identify adjacent AAIF WGs and external bodies or initiatives, such as W3C, IETF, OpenSSF, CNCF, or OWASP. Explain how the proposed WG would coordinate with them rather than duplicate their work. If you identify no overlap, say what you checked and why the proposed scope is distinct.
 
----
-
-## Evaluation Criteria
-
-Submitted proposals will be reviewed by the Foundation's Technical Committee using the following criteria:
-
-| Criterion | Description |
-|---|---|
-| **Relevance** | Alignment with the Foundation's mission and agentic AI focus areas |
-| **Clarity** | Clearly defined problem, scope, and deliverables |
-| **Feasibility** | Realistic timeline, resource requirements, and path to completion |
-| **Impact** | Potential to produce meaningful, actionable outcomes |
-| **Urgency** | Timeliness and importance relative to current developments in the field |
-| **Community Support** | Evidence of interest or commitment from prospective participants |
-| **Avoiding Duplication** | Differentiation from existing Working Groups or external initiatives |
+### 8. Impact, Risks & Resources
+Explain who would benefit, why the work is timely, and what could prevent success. Note dependencies, prior work, and any expected needs for staff support, tooling, or budget. A proposal does not authorize commitments of AAIF resources.
 
 ---
 
-## Review Process
+## After Submission
 
-1. **Submission** — Complete and submit the Working Group Idea Submission Form through the Project Proposal Github repo.
-2. **Initial Screening** — Foundation staff review submissions for completeness, generally within **10-15 business days**.
-3. **Committee Review** — Complete proposals are evaluated by the Technical Committee at its next scheduled meeting (held monthly).
-4. **Feedback & Revision** — Proposers may be invited to clarify, revise, or present their proposal to the Committee.
-5. **Decision** — Proposals are approved, returned for revision, or declined, with written rationale provided in all cases through the Github issue.
-6. **Charter Development** — Approved groups proceed to develop a formal Working Group Charter before launch.
+Submit the application in the [Working Group Proposals repository](https://github.com/aaif/working-group-proposals). AAIF staff check completeness, then the Technical Committee (TC) reviews the proposal asynchronously on the issue. Monitor the discussion and respond to questions or requests for changes.
 
-The full review cycle, from submission to decision, typically takes **4–8 weeks**.
+The lifecycle policy sets a target of a TC decision within eight weeks of a complete submission, not a guarantee of a decision at the next TC meeting. Outcomes and their reasons are recorded on the issue; the TC may also redirect a proposal into an existing WG as a workstream.
 
-In addition, please review the [Working Group Lifecycle Policy](https://github.com/aaif/technical-committee/blob/main/working-groups/lifecycle-policy.md).
+After the required TC and Governing Board approvals, the WG starts in Sandbox, begins meeting and filing monthly reports, and develops its charter with participants. It becomes Active when the TC approves the charter. Consult the lifecycle policy for Sandbox deadlines, extensions, and annual renewal, and the reporting procedure for monthly reporting instructions.
 
 ---
 
@@ -100,7 +84,7 @@ In addition, please review the [Working Group Lifecycle Policy](https://github.c
 
 - **Be specific.** Vague scope is the most common reason proposals are returned for revision. Define what the group will and will not cover.
 - **Know your audience.** The reviewing committee includes both technical and non-technical members. Write for both.
-- **Demonstrate demand.** Proposals with named participants or letters of support carry more weight.
+- **Demonstrate demand.** Show concrete commitments from the named participants, not just general interest or potential audiences.
 - **Connect to the mission.** Explicitly link your proposal to the Foundation's strategic priorities rather than leaving it to inference.
 - **Think in deliverables.** A Working Group that cannot articulate concrete outputs is difficult to evaluate and hard to sustain.
 
@@ -108,7 +92,7 @@ In addition, please review the [Working Group Lifecycle Policy](https://github.c
 
 ## Code of Conduct
 
-All Working Group participants, including proposers, are expected to adhere to the LF Project's [Code of Conduct](https://lfprojects.org/policies/code-of-conduct/). Submissions that promote narrow commercial interests without broader community benefit, or that conflict with the Foundation's values of openness, safety, and inclusivity, will not be considered.
+All WG participants, including proposers, must follow the [AAIF Code of Conduct](https://github.com/aaif/foundation/blob/main/CODE_OF_CONDUCT.md), which explicitly applies to Working Group meetings. See that document for reporting and enforcement information.
 
 ---
 
@@ -121,4 +105,4 @@ For questions about the submission process, eligibility, or how to strengthen yo
 
 ---
 
-*The Agentic AI Foundation reserves the right to modify these guidelines at any time. Submitters will be notified of material changes that affect proposals currently under review.*
+*For current governance and reporting requirements, refer to the authoritative lifecycle policy and reporting procedure linked above.*
